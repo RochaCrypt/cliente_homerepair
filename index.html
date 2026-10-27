@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Home Repair provides reliable home maintenance, installations and small repairs in Ireland." />
+  <meta name="theme-color" content="#0b3157" />
+  <meta property="og:title" content="Home Repair | Service & Maintenance" />
+  <meta property="og:description" content="Quality Service, Reliable Repairs. Your home, our priority!" />
+  <meta property="og:image" content="/assets/home-repair-logo.jpg" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Home Repair | Service & Maintenance</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Home Repair home">
+        <img src="/assets/home-repair-logo.jpg" alt="Home Repair Service & Maintenance logo" />
+        <span><strong>HOME REPAIR</strong><small data-i18n="brandSub">Service & Maintenance</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#quote" data-i18n="navQuote">Get a quote</a>
+      </nav>
+      <div class="header-actions">
+        <button id="langBtn" class="icon-button language" type="button" aria-label="Switch language">PT</button>
+        <button id="themeBtn" class="icon-button" type="button" aria-label="Switch colour theme"><span aria-hidden="true">☾</span></button>
+        <a class="button button-small desktop-cta" href="#quote" data-i18n="requestQuote">Request a quote</a>
+        <button id="menuBtn" class="icon-button menu-button" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+    <nav id="mobileNav" class="mobile-nav container" aria-label="Mobile navigation" hidden>
+      <a href="#services" data-i18n="navServices">Services</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#quote" data-i18n="navQuote">Get a quote</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Featured home repair services">
+      <div class="carousel" id="carousel">
+        <div class="slide active" style="--bg:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=85')"></div>
+        <div class="slide" style="--bg:url('https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1920&q=85')"></div>
+        <div class="slide" style="--bg:url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1920&q=85')"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow" data-i18n="heroEyebrow">Reliable home maintenance</span>
+        <h1 data-i18n="heroTitle">Quality Service,<br /><span>Reliable Repairs.</span></h1>
+        <p data-i18n="heroText">Professional help for repairs, installations and everyday maintenance. Your home, our priority!</p>
+        <div class="hero-buttons">
+          <a class="button" href="#quote" data-i18n="getQuote">Get your free quote</a>
+          <a class="button button-secondary" href="#services" data-i18n="exploreServices">Explore services</a>
+        </div>
+        <div class="trust-row" aria-label="Service benefits">
+          <span>✓ <span data-i18n="trust1">Clear communication</span></span>
+          <span>✓ <span data-i18n="trust2">Quality workmanship</span></span>
+          <span>✓ <span data-i18n="trust3">Fast response</span></span>
+        </div>
+      </div>
+      <div class="carousel-controls" aria-label="Carousel controls">
+        <button id="prevSlide" aria-label="Previous image">‹</button>
+        <div id="dots"></div>
+        <button id="nextSlide" aria-label="Next image">›</button>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow" data-i18n="servicesEyebrow">What we do</span>
+          <h2 data-i18n="servicesTitle">Home maintenance made simple</h2>
+          <p data-i18n="servicesIntro">From a small fix to a new installation, Home Repair helps keep your property working, safe and comfortable.</p>
+        </div>
+        <div class="service-grid" id="serviceGrid"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1200&q=85" alt="Professional maintenance tools prepared for a home repair" loading="lazy" />
+          <div class="about-badge"><strong>Home Repair</strong><span data-i18n="badge">Service & Maintenance</span></div>
+        </div>
+        <div>
+          <span class="eyebrow" data-i18n="aboutEyebrow">Why choose us</span>
+          <h2 data-i18n="aboutTitle">Practical solutions for your home</h2>
+          <p data-i18n="aboutText">We focus on dependable service, careful workmanship and straightforward communication, from the first message to the completed job.</p>
+          <ul class="feature-list">
+            <li><span>✓</span><div><strong data-i18n="feature1Title">One contact, many solutions</strong><p data-i18n="feature1Text">A broad range of everyday repair and installation services.</p></div></li>
+            <li><span>✓</span><div><strong data-i18n="feature2Title">Easy quotation</strong><p data-i18n="feature2Text">Tell us what you need and send the request directly through WhatsApp.</p></div></li>
+            <li><span>✓</span><div><strong data-i18n="feature3Title">Customer-first service</strong><p data-i18n="feature3Text">Clear expectations, organised work and respect for your home.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section" id="quote">
+      <div class="container quote-grid">
+        <div class="quote-copy">
+          <span class="eyebrow light" data-i18n="quoteEyebrow">Request a quote</span>
+          <h2 data-i18n="quoteTitle">Tell us what needs fixing</h2>
+          <p data-i18n="quoteText">Answer a few quick questions. Your request will be prepared and opened in WhatsApp, ready for you to send.</p>
+          <div class="contact-card">
+            <span class="contact-icon">◉</span>
+            <div><small>WhatsApp</small><a href="https://wa.me/353852274149" target="_blank" rel="noopener">+353 85 227 4149</a></div>
+          </div>
+          <div class="contact-card">
+            <span class="contact-icon">✉</span>
+            <div><small>Email</small><a href="mailto:homerepairsolution2@gmail.com">homerepairsolution2@gmail.com</a></div>
+          </div>
+        </div>
+
+        <form id="quoteForm" class="quote-form">
+          <div class="form-progress" aria-hidden="true"><span id="progressBar"></span></div>
+          <div class="form-step active" data-step="1">
+            <p class="step-count" data-i18n="step1Count">Step 1 of 3</p>
+            <h3 data-i18n="step1Title">Your contact details</h3>
+            <label><span data-i18n="nameLabel">Full name</span><input id="name" name="name" type="text" autocomplete="name" required maxlength="80" /></label>
+            <label><span data-i18n="phoneLabel">Phone number</span><input id="phone" name="phone" type="tel" autocomplete="tel" required maxlength="30" /></label>
+            <label><span data-i18n="areaLabel">Area / Eircode</span><input id="area" name="area" type="text" autocomplete="postal-code" required maxlength="50" /></label>
+          </div>
+          <div class="form-step" data-step="2">
+            <p class="step-count" data-i18n="step2Count">Step 2 of 3</p>
+            <h3 data-i18n="step2Title">About the job</h3>
+            <label><span data-i18n="serviceLabel">Service needed</span><select id="service" name="service" required></select></label>
+            <label><span data-i18n="propertyLabel">Property type</span><select id="property" name="property" required></select></label>
+            <label><span data-i18n="urgencyLabel">How urgent is it?</span><select id="urgency" name="urgency" required></select></label>
+          </div>
+          <div class="form-step" data-step="3">
+            <p class="step-count" data-i18n="step3Count">Step 3 of 3</p>
+            <h3 data-i18n="step3Title">Final details</h3>
+            <label><span data-i18n="dateLabel">Preferred date</span><input id="date" name="date" type="date" /></label>
+            <label><span data-i18n="detailsLabel">Describe the work</span><textarea id="details" name="details" rows="4" required maxlength="800" placeholder="What needs to be repaired or installed?"></textarea></label>
+            <label class="check"><input id="consent" type="checkbox" required /><span data-i18n="consentText">I agree to share these details through WhatsApp so Home Repair can contact me about this request.</span></label>
+          </div>
+          <div class="form-actions">
+            <button id="backBtn" class="button button-ghost" type="button" hidden data-i18n="back">Back</button>
+            <button id="nextBtn" class="button" type="button" data-i18n="next">Next</button>
+            <button id="submitBtn" class="button whatsapp" type="submit" hidden data-i18n="sendWhatsapp">Open in WhatsApp</button>
+          </div>
+          <p class="form-note" data-i18n="privacyNote">Your details are not stored on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>HOME REPAIR</strong><p data-i18n="footerTagline">Quality Service, Reliable Repairs.<br />Your home, our priority!</p></div>
+      <div><strong data-i18n="footerContact">Contact</strong><a href="tel:+353852274149">+353 85 227 4149</a><a href="mailto:homerepairsolution2@gmail.com">homerepairsolution2@gmail.com</a></div>
+      <div><strong data-i18n="footerLinks">Quick links</strong><a href="#services" data-i18n="navServices">Services</a><a href="#quote" data-i18n="navQuote">Get a quote</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Home Repair</span><span data-i18n="footerPrivacy">This website does not store form submissions.</span></div>
+  </footer>
+  <a class="floating-whatsapp" href="https://wa.me/353852274149" target="_blank" rel="noopener" aria-label="Contact Home Repair on WhatsApp">☎</a>
+  <script src="/script.js" defer></script>
+</body>
+</html>
